@@ -1,0 +1,43 @@
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.advantages {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.why {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.flex-container-1 {
+    display: flex;
+    margin-bottom: 30px;
+}
+.item-1 {
+}
+.title {
+}
+.text {
+}
+.item-2 {
+}
+.item-3 {
+}
+.flex-container-2 {
+    display: flex;
+}
+.item-4 {
+}
+.item-5 {
+}
+.item-6 {
+}
+@media screen and(max-width:500px){
+    .flex-container-1{
+        flex-wrap: wrap;
+    }
+    .flex-container-2{
+        flex-wrap: wrap;
+    }
+}
